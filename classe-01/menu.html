@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galeria</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="roboto">
+
+    <nav class="menu-side flex-column">
+        <button class="menu-buttons bt-menu">
+            <img src="./assets/closed-menu.svg" alt="Abrir/Fechar Menu">
+        </button>
+
+        <button class="menu-buttons">
+            <img src="./assets/active-home.svg" alt="Home">
+            <span class="hidden">Inicio</span>
+        </button>
+
+        <button class="menu-buttons">
+            <img src="./assets/inactive-like.svg" alt="Favorites">
+            <span class="blackcolor hidden">Favoritos</span>
+        </button>
+
+        <button class="menu-buttons final">
+            <img src="./assets/inactive-settings.svg" alt="Settings">
+            <span class="blackcolor hidden">Configurações</span>
+        </button>
+    </nav>
+
+    <div class="main">
+        <h1>Início</h1>
+
+        <div class="gallery flex-wrap">
+            <div class="imagens">
+                <img class="item__like hidden" src="./assets/like.svg" alt="Like">
+                <img src="assets/gallery/image 1.png" alt="Hamster" id="1" class="imgs">
+                <div class="legendas">
+                    <span class="descricao">Lorem ipsum</span>
+                    <span class="tempo">há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagens">
+                <img class="item__like hidden" src="./assets/like.svg" alt="Like">
+                <img src="assets/gallery/image 2.png" alt="Gato" id="2" class="imgs">
+                <div class="legendas">
+                    <span class="descricao">Lorem ipsum</span>
+                    <span class="tempo">há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagens">
+                <img class="item__like hidden" src="./assets/like.svg" alt="Like">
+                <img src="assets/gallery/image 3.png " alt="Cachorro" id="3" class="imgs">
+                <div class="legendas">
+                    <span class="descricao">Lorem ipsum</span>
+                    <span class="tempo">há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagens">
+                <img class="item__like hidden" src="./assets/like.svg" alt="Like">
+                <img src="assets/gallery/image 4.png" alt="Gorila" id="4" class="imgs">
+                <div class="legendas">
+                    <span class="descricao">Lorem ipsum</span>
+                    <span class="tempo">há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagens">
+                <img class="item__like hidden" src="./assets/like.svg" alt="Like">
+                <img src="assets/gallery/image 5.png" alt="Borboleta" id="5" class="imgs">
+                <div class="legendas">
+                    <span class="descricao">Lorem ipsum</span>
+                    <span class="tempo">há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagens">
+                <img class="item__like hidden" src="./assets/like.svg" alt="Like">
+                <img src="assets/gallery/image 6.png" alt="Onça" id="6" class="imgs">
+                <div class="legendas">
+                    <span class="descricao">Lorem ipsum</span>
+                    <span class="tempo">há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagens">
+                <img class="item__like hidden" src="./assets/like.svg" alt="Like">
+                <img src="assets/gallery/image 7.png" alt="Raposa" id="7" class="imgs">
+                <div class="legendas">
+                    <span class="descricao">Lorem ipsum</span>
+                    <span class="tempo">há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagens">
+                <img class="item__like hidden" src="./assets/like.svg" alt="Like">
+                <img src="assets/gallery/image 8.png" alt="Lobo" id="8" class="imgs">
+                <div class="legendas">
+                    <span class="descricao">Lorem ipsum</span>
+                    <span class="tempo">há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagens">
+                <img class="item__like hidden" src="./assets/like.svg" alt="Like">
+                <img src="assets/gallery/image 9.png" alt="Tartaruga" id="9" class="imgs">
+                <div class="legendas">
+                    <span class="descricao">Lorem ipsum</span>
+                    <span class="tempo">há 1 mês</span>
+                </div>
+            </div>
+            <div class="imagens">
+                <img class="item__like hidden" src="./assets/like.svg" alt="Like">
+                <img src="assets/gallery/image 10.png" alt="Leão" id="10" class="imgs">
+                <div class="legendas">
+                    <span class="descricao">Lorem ipsum</span>
+                    <span class="tempo">há 1 mês</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal hidden">
+        <button class="prev">
+            <img src="./assets/prev.svg" alt="Imagem Anterior">
+        </button>
+
+        <div target="_blank">
+            <img class="modal__like hidden" src="./assets/like.svg" alt="Like">
+            <img class="modal_img" alt>
+        </div>
+
+        <button class="next">
+            <img src="./assets/next.svg" alt="Imagem Posterior">
+        </button>
+
+        <button class="fechar-modal">
+            <img src="./assets/close-modal.svg" alt="Fechar Imagem">
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
